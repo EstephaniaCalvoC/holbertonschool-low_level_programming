@@ -14,12 +14,12 @@ for (num2 = 48 ; num2 < 58 ; num2++)
 {
 putchar(num1);
 putchar(num2);
-if (num1 < 58)
-if (num2 < 57)
+if (num1 == 57 && num2 == 57)
 {
+continue;
+}
 putchar(',');
 putchar(' ');
-}
 }
 }
 putchar(10);
