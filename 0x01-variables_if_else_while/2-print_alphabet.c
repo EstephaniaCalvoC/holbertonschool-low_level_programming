@@ -12,8 +12,7 @@ char letra;
 for (letra = 'a' ; letra <= 'z' ; letra++)
 {
 putchar(letra);
-putchar(10);
 }
-
+putchar(10);
 return (0);
 }
