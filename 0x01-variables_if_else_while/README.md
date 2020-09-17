@@ -9,3 +9,4 @@
 - **4-print_alphabt.c:** Print the alphabet in lowercase, followed by a new line.
 - **5-print_numbers.c:** Print all single digit numbers of base 10 starting from 0, followed by a new line.
 - **6-print_numberz.c:** Print  all single digit numbers of base 10 starting from 0, followed by a new line, without to use any variable of type char
+- **7-print_tebahpla.c:** Print the lowercase alphabet in reverse, followed by a new line.
