@@ -16,7 +16,7 @@ letra_f = 'z';
 while (letra_i <= letra_f)
 {
 putchar(letra_i);
-letra_i + +;
+letra_i++;
 if (letra_i == 123)
 {
 letra_i = 'A';
