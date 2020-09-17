@@ -12,3 +12,4 @@
 - **7-print_tebahpla.c:** Print the lowercase alphabet in reverse, followed by a new line.
 - **8-print_base16.c:** Print all the numbers of base 16 in lowercase, followed by a new line.
 - **9-print_comb.c:** Print all possible combinations of single-digit numbers.
+- **10-print_comb2.c:** Print the numbers from 00 to 99.
