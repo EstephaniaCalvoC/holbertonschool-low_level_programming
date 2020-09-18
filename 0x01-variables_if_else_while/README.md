@@ -13,3 +13,4 @@
 - **8-print_base16.c:** Print all the numbers of base 16 in lowercase, followed by a new line.
 - **9-print_comb.c:** Print all possible combinations of single-digit numbers.
 - **10-print_comb2.c:** Print the numbers from 00 to 99.
+- **100-print_comb3.c:** Print all possible different combinations of two digits.
