@@ -10,7 +10,7 @@ int main(void)
 int num1, num2;
 for (num1 = 48 ; num1 < 58 ; num1++)
 {
-  num2=49+(num1-48);
+num2 = 49 + (num1 - 48);
 for (; num2 < 58 ; num2++)
 {
 putchar(num1);
