@@ -14,3 +14,4 @@
 - **9-print_comb.c:** Print all possible combinations of single-digit numbers.
 - **10-print_comb2.c:** Print the numbers from 00 to 99.
 - **100-print_comb3.c:** Print all possible different combinations of two digits.
+- **101-print_comb4.c:** Print all possible different combinations of three digits.
