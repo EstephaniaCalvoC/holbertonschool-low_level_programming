@@ -7,10 +7,8 @@
 
 int main(void)
 {
-	char name[9];
+	char name[] = "Holberton";
 	int i;
-
-	name = "Holberton";
 
 	for (i = 0; i < 9; i++)
 	{
