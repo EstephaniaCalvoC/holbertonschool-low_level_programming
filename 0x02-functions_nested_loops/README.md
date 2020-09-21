@@ -8,3 +8,4 @@
 - **3-islower.c:** Check for lowercase character.
 - **4-isalpha.c:** Check for alphabetic character.
 - **5-sign.c:** Print the sign of a number.
+- **6-abs.c:** Compute the absolute value of an integer.
