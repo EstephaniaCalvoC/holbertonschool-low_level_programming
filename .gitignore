@@ -2,3 +2,4 @@
 p.c
 main.c
 *.h
+*.out
