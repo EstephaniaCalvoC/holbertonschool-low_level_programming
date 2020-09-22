@@ -16,7 +16,8 @@ void times_table(void)
 
 			if (r < 10)
 			{
-				_putchar(' ');
+				if (num2 > 0)
+					_putchar(' ');
 				_putchar('0' + r);
 			}
 			else
