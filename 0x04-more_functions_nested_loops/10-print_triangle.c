@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - Print a triangle in the terminal.
- * @n: numbers of lines.
+ * @size: numbers of lines.
  */
 
 void print_triangle(int size)
@@ -13,7 +13,7 @@ void print_triangle(int size)
 		_putchar('\n');
 	for (i = 1; i <= size; i++)
 	{
-		for (spc = size -i; spc > 0; spc--)
+		for (spc = size - i; spc > 0; spc--)
 			_putchar(' ');
 		for (j = i; j > 0; j--)
 			_putchar('#');
