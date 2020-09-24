@@ -14,7 +14,6 @@ void print_diagonal(int n)
 		for (spc = init - n; spc > 0; spc--)
 			_putchar(' ');
 		_putchar('\\');
+		_putchar('\n');
 	}
-
-	_putchar('\n');
 }
