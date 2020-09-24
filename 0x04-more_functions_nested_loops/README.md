@@ -10,3 +10,4 @@
 - **5-more_numbers.c:** Prints 10 times the numbers, from 0 to 14.
 - **6-print_line.c:** Draw a straight line in the terminal.
 - **7-print_diagonal.c:** Draw a diagonal line on the terminal.
+- **8-print_square.c:** Print a square, followed by a new line.
