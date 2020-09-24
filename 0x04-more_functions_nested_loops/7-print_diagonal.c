@@ -9,6 +9,9 @@ void print_diagonal(int n)
 {
 	int spc, init = n;
 
+	if (n == 0)
+		_putchar('\n');
+
 	for (; n > 0; n--)
 	{
 		for (spc = init - n; spc > 0; spc--)
