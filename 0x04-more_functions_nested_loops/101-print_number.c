@@ -2,13 +2,12 @@
 
 /**
  * print_number - Print a integer numbers.
+ * @n: number
  */
 
-void print_number(void)
+void print_number(n)
 {
-	int n, size, j, k, pot;
-
-	n = 3650;
+	int size, j, k, pot;
 
 	for (size = 0; nx != 0; size++)
 		nx = nx / 10;
