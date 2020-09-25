@@ -13,3 +13,4 @@
 - **8-print_square.c:** Print a square, followed by a new line.
 - **9-fizz_buzz.c:** Print the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 - **10-print_triangle.c:** Print a triangle, followed by a new line.
+- **101-print_number.c** Print an integer.
