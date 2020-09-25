@@ -22,7 +22,9 @@ void print_number(int n)
 	{
 		pot = 1;
 		for (k = j; k > 0; k--)
+		{
 			pot = pot * 10;
+		}
 		_putchar(48 + ((n / pot) % 10));
 	}
 	_putchar(48 + n % 10);
