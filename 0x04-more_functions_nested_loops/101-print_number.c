@@ -2,12 +2,19 @@
 
 /**
  * print_number - Print a integer numbers.
- * @n: number
+ * @n: number.
  */
 
-void print_number(n)
+void print_number(int n)
 {
-	int size, j, k, pot;
+	int size, nx, j, k, pot;
+
+	if (n < 0)
+	{
+		_putchar('-');
+		n = n * -1;
+	}
+	nx = n;
 
 	for (size = 0; nx != 0; size++)
 		nx = nx / 10;
@@ -19,7 +26,5 @@ void print_number(n)
 			pot = pot * 10;
 		_putchar('0' + ((n / pot) % 10));
 	}
-	_putchar(n % 10)
-
-	_putchar(10);
+	_putchar('0' + n % 10);
 }
