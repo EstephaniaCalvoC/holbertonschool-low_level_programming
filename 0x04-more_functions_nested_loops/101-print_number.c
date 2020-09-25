@@ -8,7 +8,7 @@
 
 void print_number(int n)
 {
-	int size, nx, j, k, pot;
+	unsigned int nx;
 
 	if (n < 0)
 	{
@@ -16,16 +16,12 @@ void print_number(int n)
 		n = n * -1;
 	}
 	nx = n;
-	for (size = 0; nx != 0; size++)
-		nx = nx / 10;
-	for (j = size - 1; j > 0; j--)
+
+	if (n < 10)
+		_putchar('0' + n);
+	else
 	{
-		pot = 1;
-		for (k = j; k > 0; k--)
-		{
-			pot = pot * 10;
-		}
-		_putchar(48 + ((n / pot) % 10));
+		print_number(nx / 10);
+		_putchar('0' + (nx % 10));
 	}
-	_putchar(48 + n % 10);
 }
