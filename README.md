@@ -7,3 +7,4 @@
 - **0x02-functions_nested_loops:** Use of functions and nested loops.
 - **0x03-debugging:** Debuggin exercises.
 - **0x04-more_functions_nested_loops:** Use of more functions and nested loops.
+- **0x05-pointers_arrays_strings:** Use of pointers, arrays and strings.
