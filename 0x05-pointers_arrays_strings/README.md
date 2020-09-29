@@ -11,3 +11,4 @@
 - **6-puts2.c:** Print every other character of a string, starting with the first character,
 - **7-puts_half.c:** Print half of a string.
 - **8-print_array.c:** Print n elements of an array of integers.
+- **9-strcpy.c:** Copie the string pointed to by src to the buffer pointed to by dest.
