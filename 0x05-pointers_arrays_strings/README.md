@@ -9,3 +9,4 @@
 -**4-print_rev.c:** Print a string, in reverse, followed by a new line.
 -**5-rev_string.c:** Reverse a string.
 -**6-puts2.c:** Print every other character of a string, starting with the first character,
+-**7-puts_half.c:** Print half of a string.
