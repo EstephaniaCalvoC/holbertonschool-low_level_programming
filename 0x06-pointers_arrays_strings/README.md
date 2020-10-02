@@ -10,3 +10,4 @@
 - **5-string_toupper.c:** Change all lowercase letters of a string to uppercase.
 - **6-cap_string.c:** Capitalize all words of a string.
 - **7-leet.c:** Encode a string into 1337.
+- **8-rot13.c:** Encode a string using rot13.
