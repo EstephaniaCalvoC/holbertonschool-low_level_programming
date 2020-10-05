@@ -10,3 +10,4 @@
 - **5-strstr.c:** Locate a substring.
 - **7-print_chessboard.c:** Print the chessboard.
 - **8-print_diagsums.c:** Print the sum of the two diagonals of a square matrix of integers.
+- **9-set_string.c:** Set the value of a pointer to a char.
