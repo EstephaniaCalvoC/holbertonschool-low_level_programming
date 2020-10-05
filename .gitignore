@@ -2,3 +2,4 @@
 p.c
 *.out
 *main.c
+_putchar.c
