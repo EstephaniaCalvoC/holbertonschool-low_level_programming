@@ -8,3 +8,4 @@
 - **3-strspn.c:** Get the length of a prefix substring.
 - **4-strpbrk.c:** Search a string for any of a set of bytes
 - **5-strstr.c:** Locate a substring.
+- **7-print_chessboard.c:** Print the chessboard.
