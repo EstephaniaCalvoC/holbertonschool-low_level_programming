@@ -10,3 +10,4 @@
 - **0x05-pointers_arrays_strings:** Use of pointers, arrays and strings.
 - **0x06-pointers_arrays_strings:** Use of piointer, arrays and string for make string functions.
 - **0x07-pointers_arrays_strings:** Even more pointers, arrays and strings
+- **0x08-recursion:** Recursion
