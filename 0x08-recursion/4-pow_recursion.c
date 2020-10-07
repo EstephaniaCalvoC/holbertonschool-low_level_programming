@@ -1,12 +1,11 @@
 #include "holberton.h"
-
 /**
- * _pow - Calculate x raised to the power of y.
- * @x: Base number.
- * @y: Power.
- * Return: 0 is success.
+ * _pow_recursion - Calculate the value of x raised to the power of y
+ *
+ * @x: int value to rise
+ * @y: int power value
+ * Return: Result or error
  */
-
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
