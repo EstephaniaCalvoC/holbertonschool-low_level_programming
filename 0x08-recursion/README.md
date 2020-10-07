@@ -7,3 +7,4 @@
 - **2-strlen_recursion.c:** int _strlen_recursion(char *s);
 - **3-factorial.c:** Return the factorial of a given number.
 - **4-pow_recursion.c:** Return the value of x raised to the power of y.
+- **5-sqrt_recursion.c:** Return the natural square root of a number.
