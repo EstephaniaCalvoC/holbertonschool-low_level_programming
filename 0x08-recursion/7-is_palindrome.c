@@ -47,10 +47,7 @@ int compare(char *s, char *u)
 
 int is_palindrome(char *s)
 {
-	if (*s == '\0')
-		return (1);
-
-	int size;
+        int size;
 
 	size = _strlen_rec(s);
 
