@@ -5,7 +5,6 @@
  * @s: String
  * Return: Lengt
  */
-
 int _strlen_rec(char *s)
 {
 	int size;
@@ -27,7 +26,6 @@ int _strlen_rec(char *s)
  * @u: Reverse string.
  * Return: 1 if the strings are the same and 0 if not.
  */
-
 int compare(char *s, char *u)
 {
 	if (*s == '\0')
@@ -44,14 +42,14 @@ int compare(char *s, char *u)
  * @s: String.
  * Return: 1 if a string is a palindrome and 0 if not.
  */
-
 int is_palindrome(char *s)
 {
         int size;
+	char *u = 0;
 
 	size = _strlen_rec(s);
 
-	char *u = s + size - 1;
+	u = s + size - 1;
 
 	return (compare(s, u));
 }
