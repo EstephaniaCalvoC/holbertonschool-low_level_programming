@@ -9,3 +9,4 @@
 - **4-pow_recursion.c:** Return the value of x raised to the power of y.
 - **5-sqrt_recursion.c:** Return the natural square root of a number.
 - **6-is_prime_number.c:** Return 1 if the input integer is a prime number, otherwise return 0.
+- **7-is_palindrome.c:** Return 1 if a string is a palindrome and 0 if not.
