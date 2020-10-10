@@ -9,5 +9,7 @@
 - **0x04-more_functions_nested_loops:** Use of more functions and nested loops.
 - **0x05-pointers_arrays_strings:** Use of pointers, arrays and strings.
 - **0x06-pointers_arrays_strings:** Use of piointer, arrays and string for make string functions.
-- **0x07-pointers_arrays_strings:** Even more pointers, arrays and strings
-- **0x08-recursion:** Recursion
+- **0x07-pointers_arrays_strings:** Even more pointers, arrays and strings.
+- **0x08-recursion:** Recursion.
+- **0x09-static_libraries** Static libraries.
+- **0x0A-argc_argv:** argc, argv.
