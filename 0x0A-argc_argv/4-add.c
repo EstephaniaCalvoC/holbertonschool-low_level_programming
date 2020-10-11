@@ -23,26 +23,30 @@ int _isdigit(int c)
  */
 int main(int argc, char *argv[])
 {
-	int i, radd;
+	int i, j, radd = 0;
+	char *a = NULL;
 
-	if (argc <= 1)
+	if (argc <= 2)
 	{
-		printf("0");
+		printf("0\n");
+		return (0);
 	}
 
-	for (i = 1; i < arg; i++)
+	for (i = 1; i < argc; i++)
 	{
-		if (_isdigit(argv[i]))
+		a = argv[i];
+		for (j = 0; a[j] != '\0'; j++)
 		{
-			radd += atoi(argv[i]);
+			if (_isdigit(a[j]) != 1)
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+		radd += atoi(argv[i]);
 	}
-        printf("%d\n", radd);
+
+	printf("%d\n", radd);
 
 	return (0);
 }
