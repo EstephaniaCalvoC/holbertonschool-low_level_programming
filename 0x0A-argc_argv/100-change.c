@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _chage - Count the minimum number of coins to make change
+ * _change - Count the minimum number of coins to make change
  * for an amount of money.
  * @num: Amount.
  * @mod: Array of coins.
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 	{
 		num = atoi(argv[1]);
 		size = 5;
-		if (num < 0)
+		if (num <= 0)
 			printf("0\n");
 		else
 		{
