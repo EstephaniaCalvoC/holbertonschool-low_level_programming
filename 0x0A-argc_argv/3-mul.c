@@ -1,6 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 
 /**
  * main - Multiplie two numbers.
