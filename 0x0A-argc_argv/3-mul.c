@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (argc > 0)
+	if (argc > 1)
 	{
 		rmult = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", rmult);
