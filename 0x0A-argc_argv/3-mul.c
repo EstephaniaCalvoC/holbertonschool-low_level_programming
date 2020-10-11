@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <sdlib.h>
 
 /**
  * main - Multiplie two numbers.
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-		puts("Error");
+		printf("Error\n");
 		return (1);
 	}
 	if (argc > 0)
