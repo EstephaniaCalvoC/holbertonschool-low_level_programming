@@ -27,11 +27,11 @@ What I learned from this project:
 ### [2. He who is not courageous enough to take risks will accomplish nothing in life](./2-str_concat.c)
 * Write a function that concatenates two strings.
 
-<!--
+
 ### [3. If you even dream of beating me you'd better wake up and apologize](./3-alloc_grid.c)
 * Write a function that returns a pointer to a 2 dimensional array of integers.
 
-
+<!--
 ### [4. It's not bragging if you can back it up](./4-free_grid.c)
 * Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
