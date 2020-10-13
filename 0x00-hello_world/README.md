@@ -15,7 +15,7 @@ Read or watch:
 
 ---
 ## Learning Objectives:bulb:
-What you should learn from this project:
+What I learned from this project:
 
 * Why C programming is awesome
 * Who invented C

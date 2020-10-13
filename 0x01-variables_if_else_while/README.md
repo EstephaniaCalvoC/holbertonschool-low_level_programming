@@ -15,7 +15,7 @@ Read or watch:
 
 ---
 ## Learning Objectives:bulb:
-What I learn from this project:
+What I learned from this project:
 
 * What are the arithmetic operators and how to use them
 * What are the logical operators (sometimes called boolean operators) and how to use them
