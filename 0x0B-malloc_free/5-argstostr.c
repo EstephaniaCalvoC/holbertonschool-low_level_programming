@@ -34,7 +34,10 @@ char *argstostr(int ac, char **av)
 	int size, i, j, c;
 	char *arrscat;
 
-	if (ac == 0 || av == NULL)
+	if (ac == 0)
+		return (NULL);
+
+	if (av == NULL)
 		return (NULL);
 
 	size = _arrstrlen(ac, av);
