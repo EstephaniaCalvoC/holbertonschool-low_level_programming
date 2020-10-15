@@ -24,11 +24,11 @@ What I learned from this project:
 ### [2. _calloc](./2-calloc.c)
 * A function that allocates memory for an array, using malloc.
 
-<!---
+
 ### [3. array_range](./3-array_range.c)
-* Write a function that creates an array of integers.
+* A function that creates an array of integers.
 
 ---
--->
+
 ## Author
 * **Estephania Calvo Carvajal** - [EstephaniaCalvoC](https://github.com/EstephaniaCalvoC)
