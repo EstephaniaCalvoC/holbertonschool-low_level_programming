@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * _strlen - Count the length of a string.
@@ -27,7 +27,7 @@ unsigned int _strlen(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *strcatn = NULL;
-	int size1;
+	unsigned int size1, size2, i, j;
 
 	/*Convert null strings to empty string*/
 	if (s1 == NULL)
@@ -36,7 +36,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 
 	/*Allocate memory*/
-	size1 = strlen(s1);
+	size1 = _strlen(s1);
+	size2 = _strlen(s2);
+
+	if (n < size2)
+		n = size2;
 
 	strcatn = malloc(sizeof(char) * (size1 + n + 1));
 
@@ -47,10 +51,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0; s1[i] != '\0'; i++)
 		strcatn[i] = s1[i];
 
-	for (i = 0; (i < n) || (s2[i] != '\0'); i++)
-		strcatn[i + size1] = s2[i];
+	printf("%s\n", strcatn);
 
-	strcatn[i] = '\0';
+	for (j = 0; j < n; j++)
+		strcatn[i + j] = s2[j];
+
+	strcatn[i + j] = '\0';
 
 	return (strcatn);
 }
