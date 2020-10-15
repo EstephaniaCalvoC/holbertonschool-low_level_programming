@@ -20,11 +20,11 @@ What I learned from this project:
 ### [1. string_nconcat](./1-string_nconcat.c)
 * A function that concatenates two strings.
 
-<!---
+
 ### [2. _calloc](./2-calloc.c)
-* Write a function that allocates memory for an array, using malloc.
+* A function that allocates memory for an array, using malloc.
 
-
+<!---
 ### [3. array_range](./3-array_range.c)
 * Write a function that creates an array of integers.
 
