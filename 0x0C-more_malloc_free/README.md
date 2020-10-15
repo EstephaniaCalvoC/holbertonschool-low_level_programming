@@ -16,11 +16,11 @@ What I learned from this project:
 ### [0. Trust no one](./0-malloc_checked.c)
 * A function that allocates memory using malloc.
 
-<!---
+
 ### [1. string_nconcat](./1-string_nconcat.c)
-* Write a function that concatenates two strings.
+* A function that concatenates two strings.
 
-
+<!---
 ### [2. _calloc](./2-calloc.c)
 * Write a function that allocates memory for an array, using malloc.
 
