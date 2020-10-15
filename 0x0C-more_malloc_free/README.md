@@ -12,11 +12,11 @@ What I learned from this project:
 * What are the functions calloc and realloc from the standard library and how to use them
 
 ---
-<!---
+
 ### [0. Trust no one](./0-malloc_checked.c)
-* Write a function that allocates memory using malloc.
+* A function that allocates memory using malloc.
 
-
+<!---
 ### [1. string_nconcat](./1-string_nconcat.c)
 * Write a function that concatenates two strings.
 
