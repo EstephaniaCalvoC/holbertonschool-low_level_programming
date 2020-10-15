@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	size1 = _strlen(s1);
 	size2 = _strlen(s2);
 
-	if (n < size2)
+	if (n > size2)
 		n = size2;
 
 	strcatn = malloc(sizeof(char) * (size1 + n + 1));
@@ -50,8 +50,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	/*Concatenate*/
 	for (i = 0; s1[i] != '\0'; i++)
 		strcatn[i] = s1[i];
-
-	printf("%s\n", strcatn);
 
 	for (j = 0; j < n; j++)
 		strcatn[i + j] = s2[j];
