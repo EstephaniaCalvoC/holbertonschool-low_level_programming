@@ -36,10 +36,9 @@ What I learned from this project:
 ### [3. Function-like macro](./3-function_like_macro.h)
 * A function-like macro ABS(x) that computes the absolute value of a number x.
 
-<!---
+
 ### [4. SUM](./4-sum.h)
-* Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
--->
+* A function-like macro SUM(x, y) that computes the sum of the numbers x and y.
 ---
 
 ## Author
