@@ -16,3 +16,4 @@
 - **0x0B-malloc_free:** Malloc, free.
 - **0x0C-more_malloc_free:** More malloc, free.
 - **0X0D-0x0D-preprocessor:** Preprocessor.
+- **0x0E-structures_typedef:** Structures, typedef.
