@@ -30,11 +30,11 @@ What did I learn from this project:
 ### [2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad](./2-print_dog.c)
 * A function that prints a struct dog
 
-<!---
+
 ### [3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read](./dog.h)
-* Define a new type dog_t as a new name for the type struct dog.
+* A new type dog_t as a new name for the type struct dogin the dog.h header.
 
-
+<!---
 ### [4. A door is what a dog is perpetually on the wrong side of](./4-new_dog.c)
 * Write a function that creates a new dog.
 
