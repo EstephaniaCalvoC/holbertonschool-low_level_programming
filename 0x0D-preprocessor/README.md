@@ -28,15 +28,15 @@ What I learned from this project:
 ### [1. Pi](./1-pi.h)
 * A header file that defines a macro named PI as an abbreviation for the token 3.14159265359.
 
-<!---
+
 ### [2. File name](./2-main.c)
-* Write a program that prints the name of the file it was compiled from, followed by a new line.
+* A program that prints the name of the file it was compiled from, followed by a new line.
 
 
 ### [3. Function-like macro](./3-function_like_macro.h)
-* Write a function-like macro ABS(x) that computes the absolute value of a number x.
+* A function-like macro ABS(x) that computes the absolute value of a number x.
 
-
+<!---
 ### [4. SUM](./4-sum.h)
 * Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
 -->
