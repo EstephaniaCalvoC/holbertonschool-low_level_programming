@@ -22,11 +22,11 @@ What did I learn from this project:
 ### [0. Django](./dog.h)
 * A type struct dog with the name, age, and owner.
 
-<!---
+
 ### [1. A dog is the only thing on earth that loves you more than you love yourself](./1-init_dog.c)
-* Write a function that initialize a variable of type struct dog
+* A function that initialize a variable of type struct dog.
 
-
+<!---
 ### [2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad](./2-print_dog.c)
 * Write a function that prints a struct dog
 
