@@ -1,6 +1,5 @@
 *~
 p.c
 *.out
-*main.c
 _putchar.c
 0x09-static_libraries*
