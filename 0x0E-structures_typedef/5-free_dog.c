@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * new_dog - Free structure.
+ * free_dog - Free structure.
  * @d: Pointer to a dog_t structure.
  */
 void free_dog(dog_t *d)
