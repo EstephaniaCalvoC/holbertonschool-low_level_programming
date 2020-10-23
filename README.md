@@ -18,3 +18,4 @@
 - **0X0D-0x0D-preprocessor:** Preprocessor.
 - **0x0E-structures_typedef:** Structures, typedef.
 - **0x0F-function_pointers:** Function pointers.
+- **0x10-variadic_functions:** Variadic functions.
