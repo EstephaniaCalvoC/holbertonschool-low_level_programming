@@ -29,11 +29,11 @@ What I learned from this project:
 ### [2. One woman's constant is another woman's variable](./2-print_strings.c)
 * A function that prints strings, followed by a new line.
 
-<!---
+
 ### [3. To be is a to be the value of a variable](./3-print_all.c)
 * A function that prints anything.
 
-
+<!---
 ### [4. Real programmers can write assembly code in any language](./100-hello_holberton.asm)
 * Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
 -->
