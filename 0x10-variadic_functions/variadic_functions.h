@@ -5,6 +5,11 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+void print_c(va_list element);
+void print_i(va_list element);
+void print_f(va_list element);
+void print_s(va_list element);
+
 /**
  * struct format_t - Struct format_t
  *
