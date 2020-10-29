@@ -22,11 +22,11 @@ What I learned from this project:
 ### [1. List length](./1-list_len.c)
 * A function that returns the number of elements in a linked list_t list.
 
-<!---
+
 ### [2. Add node](./2-add_node.c)
 * A function that adds a new node at the beginning of a list_t list.
 
-
+<!---
 ### [3. Add node at the end](./3-add_node_end.c)
 * A function that adds a new node at the end of a list_t list.
 
