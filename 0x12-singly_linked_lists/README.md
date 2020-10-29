@@ -30,10 +30,10 @@ What I learned from this project:
 ### [3. Add node at the end](./3-add_node_end.c)
 * A function that adds a new node at the end of a list_t list.
 
-<!---
+
 ### [4. Free list](./4-free_list.c)
 * A function that frees a list_t list.
--->
+
 ---
 
 ## Author
