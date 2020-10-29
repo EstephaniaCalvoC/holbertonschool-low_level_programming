@@ -25,7 +25,7 @@ int _strlen(char *s)
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *new;/*New node*/
+	list_t *new = NULL;/*New node*/
 
 	if (str == NULL)
 		return (NULL);
