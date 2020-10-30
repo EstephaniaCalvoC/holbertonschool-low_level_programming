@@ -2,7 +2,7 @@
 
 /**
  * free_list - Free a list_t list.
- * @head - Head of linked list_t list.
+ * @head: Head of linked list_t list.
  */
 void free_list(list_t *head)
 {
