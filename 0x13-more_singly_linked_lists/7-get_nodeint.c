@@ -7,7 +7,7 @@
  */
 unsigned int list_len(const listint_t *h)
 {
-	unsigned int n_nodes= 0;/*Counter of nodes*/
+	unsigned int n_nodes = 0;/*Counter of nodes*/
 
 	if (h == NULL)
 		return (0);
