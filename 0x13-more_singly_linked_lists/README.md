@@ -29,11 +29,10 @@ What I learned from this project:
 ### [4. Free list](./4-free_listint.c)
 * A function that frees a listint_t list.
 
-<!---
 ### [5. Free](./5-free_listint2.c)
 * A function that frees a listint_t list.
 
-
+<!---
 ### [6. Pop](./6-pop_listint.c)
 * A function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 
