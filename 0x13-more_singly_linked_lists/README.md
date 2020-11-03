@@ -1,13 +1,33 @@
-# 0x13. C - More singly linked lists ## Resources:books: Read or watch: * [Google](https://intranet.hbtn.io/rltoken/VxmJXbHtjDMJAKj7dU-6sg) * [Youtube](https://intranet.hbtn.io/rltoken/PqebvZ1ey95sB8eDiYl8_A) --- ## Learning Objectives:bulb: What I learned from this project: * How to use linked lists * Start to look for the right source of information without too much help --- ### [0. Print list](./0-print_listint.c) * A function that prints all the elements of a listint_t list.  ### [1. List length](./1-listint_len.c) * A function that returns the number of elements in a linked listint_t list.  
+# 0x13. C - More singly linked lists 
+
+## Resources:books: 
+Read or watch: 
+* [Google](https://intranet.hbtn.io/rltoken/VxmJXbHtjDMJAKj7dU-6sg) 
+* [Youtube](https://intranet.hbtn.io/rltoken/PqebvZ1ey95sB8eDiYl8_A) 
+
+--- 
+
+## Learning Objectives:bulb: 
+What I learned from this project: 
+* How to use linked lists 
+* Start to look for the right source of information without too much help 
+
+--- 
+
+### [0. Print list](./0-print_listint.c) 
+* A function that prints all the elements of a listint_t list.  
+
+### [1. List length](./1-listint_len.c) 
+* A function that returns the number of elements in a linked listint_t list.  
 
 ### [2. Add node](./2-add_nodeint.c)
 * A function that adds a new node at the beginning of a listint_t list.
 
-<!---
 ### [3. Add node at the end](./3-add_nodeint_end.c)
 * A function that adds a new node at the end of a listint_t list.
 
 
+<!---
 ### [4. Free list](./4-free_listint.c)
 * A function that frees a listint_t list.
 
