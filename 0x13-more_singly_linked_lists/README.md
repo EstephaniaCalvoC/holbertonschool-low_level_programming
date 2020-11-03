@@ -35,11 +35,10 @@ What I learned from this project:
 ### [6. Pop](./6-pop_listint.c)
 * A function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 
-<!---
 ### [7. Get node at index](./7-get_nodeint.c)
 * A function that returns the nth node of a listint_t linked list.
 
-
+<!---
 ### [8. Sum list](./8-sum_listint.c)
 * A function that returns the sum of all the data (n) of a listint_t linked list.
 
