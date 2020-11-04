@@ -47,6 +47,9 @@ What I learned from this project:
 ### [10. Delete at index](./10-delete_nodeint.c)
 * A function that deletes the node at index index of a listint_t linked list.
 
+### [11. Reverse list](./100-reverse_listint.c)
+* A funtion that reverses a listint_t linked list.
+
 ---
 
 ## Author
