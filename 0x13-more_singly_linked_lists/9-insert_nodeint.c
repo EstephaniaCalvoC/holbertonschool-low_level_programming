@@ -31,9 +31,12 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *new = NULL;
 	unsigned int size, i;
 
+	if (head == NULL)
+		return (NULL);
+
 	size = list_len(prev_node);
 
-	if (idx >= size)
+	if (idx > size)
 		return (NULL);
 
 	/*Allocate memory for new node*/
