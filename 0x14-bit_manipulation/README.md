@@ -16,14 +16,16 @@ What I learned from this project:
 ### [0. 0](./0-binary_to_uint.c)
 * A function that converts a binary number to an unsigned int.
 
+
 ### [1. 1](./1-print_binary.c)
 * A function that prints the binary representation of a number.
 
-<!---
+
 ### [2. 10](./2-get_bit.c)
 * A function that returns the value of a bit at a given index.
 
 
+<!---
 ### [3. 11](./3-set_bit.c)
 * A function that sets the value of a bit to 1 at a given index.
 
