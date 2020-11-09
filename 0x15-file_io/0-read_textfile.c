@@ -9,8 +9,8 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;/*File descriptor*/
-	int read_chars;
-	int w_error;/*Write error*/
+	ssize_t read_chars;
+	ssize_t w_error;/*Write error*/
 	char *buf = NULL;
 
 	if (filename == NULL)
