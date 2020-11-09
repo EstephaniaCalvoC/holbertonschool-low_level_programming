@@ -9,16 +9,10 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;/*File descriptor*/
-	ssize_t read_chars;
-	ssize_t w_error;/*Write error*/
+	ssize_t n_chars;
 	char *buf = NULL;
 
 	if (filename == NULL)
-		return (0);
-
-	/*Allocate memory*/
-	buf = malloc(sizeof(char) * (letters + 1));
-	if (buf == NULL)
 		return (0);
 
 	/*Read file*/
@@ -26,32 +20,31 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fd = open(filename, O_RDONLY);
 
 	if (fd < 0)
+		return (0);
+
+	/*Allocate memory*/
+	buf = malloc(letters * sizeof(char));
+	if (buf == NULL)
+		return (0);
+
+	n_chars = read(fd, buf, letters);
+
+	if (n_chars < 0)
 	{
 		free(buf);
 		return (0);
 	}
 
-	read_chars = read(fd, buf, letters);
+	n_chars = write(1, buf, n_chars);
 
-	if (read_chars < 0)
-	{
-		free(buf);
-		return (0);
-	}
-
-	close(fd);
-
-	buf[read_chars] = '\0';
-
-	w_error = write(1, buf, (read_chars));
-
-	if (w_error < 0)
+	if (n_chars < 0)
 	{
 		free(buf);
 		return (0);
 	}
 
 	free(buf);
+	close(fd);
 
-	return (w_error);
+	return (n_chars);
 }
