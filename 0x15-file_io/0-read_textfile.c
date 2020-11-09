@@ -11,15 +11,25 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int fd;/*File descriptor*/
 	int read_chars;
 	int w_error;/*Write error*/
-	char buf[letters + 1];
+	char *buf = NULL;
 
 	if (filename == NULL)
 		return (0);
 
+	/*Allocate memory*/
+	buf = malloc(letters + 1);
+	if (buf == NULL)
+		return (0);
+
+	/*Read file*/
+
 	fd = open(filename, O_RDONLY);
 
 	if (fd == -1)
+	{
+		free(buf);
 		return (0);
+	}
 
 	read_chars = read(fd, buf, letters);
 
@@ -27,10 +37,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	close(fd);
 
-	w_error = write(1, &(buf[0]), (read_chars));
+	w_error = write(1, buf, (read_chars));
 
 	if (w_error == -1)
+	{
+		free(buf);
 		return (0);
+	}
+
+	free(buf);
 
 	return (w_error);
 }
