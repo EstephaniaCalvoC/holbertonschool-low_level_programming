@@ -45,7 +45,7 @@ int main(int argc, char **argv)
 
 	/*Open file_from*/
 	file_from = open(argv[1], O_RDONLY);
-	if (file_from == 1)
+	if (file_from == -1)
 		prt_error(98, argv[1]);
 
 	/*Open file_to*/
