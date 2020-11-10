@@ -12,7 +12,7 @@ void prt_error(const int args, ...)
 	va_list list;
 
 	va_start(list, args);
-	error_num = va_arg(list, int);
+	error_num = args;
 
 	if (error_num == 97)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
