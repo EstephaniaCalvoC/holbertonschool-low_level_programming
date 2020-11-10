@@ -56,12 +56,11 @@ int main(int argc, char **argv)
 	/*Read*/
 	n_chars = read(file_from, buf, 1024);
 	/*Write*/
-	for (; n_chars > 0;)
+	for (; n_chars > 0; n_chars = read(file_from, buf, 1024))
 	{
-		n_prints = write(file_to, buf, n_chars)
+		n_prints = write(file_to, buf, n_chars);
 			if (n_prints == -1)
 				prt_error(99, argv[2]);
-		n_chars = read(file_from, buf, 1024);
 	}
 	if (n_chars == -1)
 		prt_error(98, argv[1]);
