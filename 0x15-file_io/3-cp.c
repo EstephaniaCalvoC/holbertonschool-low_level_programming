@@ -53,20 +53,17 @@ int main(int argc, char **argv)
 	if (file_to == -1)
 		prt_error(99, argv[2]);
 
-	for (n_chars = 1; n_chars > 0;)
+	/*Read*/
+	n_chars = read(file_from, buf, 1024);
+	/*Write*/
+	for (; n_chars > 0;)
 	{
-		/*Read*/
-		n_chars = read(file_from, buf, 1024);
-		if (n_chars == -1)
-			prt_error(98, argv[1]);
-		else
-		{
-			/*Write*/
-			n_prints = write(file_to, buf, n_chars);
-				if (n_prints == -1)
-					prt_error(99, argv[2]);
-		}
+	        n_prints = write(file_to, buf, n_chars);
+	        if (n_prints == -1)
+			prt_error(99, argv[2]);
 	}
+	if (n_chars == -1)
+		prt_error(98, argv[1]);
 
 	/*Close files*/
 	if (close(file_from) == -1)
