@@ -3,8 +3,7 @@
 
 /**
  * prt_error - Print errors and exit of the program.
- * @args: Number of arguments to print error.
- * @error_num: Number error to exit.
+ * @args: Number error to exit.
  */
 void prt_error(const int args, ...)
 {
