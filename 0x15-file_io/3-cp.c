@@ -3,15 +3,14 @@
 
 /**
  * prt_error - Print errors and exit of the program.
- * @error_num: Error number
- * @filename: File name with the error.
+ * @args: Number of arguments to print error.
  */
 void prt_error(const int args, ...)
 {
 	int error_num;
 	va_list list;
-	va_start(list, args);
 
+	va_start(list, args);
 	error_num = va_arg(list, int);
 
 	if (error_num == 97)
@@ -54,9 +53,7 @@ int main(int argc, char **argv)
 	if (file_to == -1)
 		prt_error(99, argv[2]);
 
-	n_chars = 1;
-
-	for (; n_chars > 0;)
+	for (n_chars = 1; n_chars > 0;)
 	{
 		/*Read*/
 		n_chars = read(file_from, buf, 1024);
@@ -74,7 +71,6 @@ int main(int argc, char **argv)
 	/*Close files*/
 	if (close(file_from) == -1)
 		prt_error(100, file_from);
-
 	if (close(file_to) == -1)
 		prt_error(100, file_to);
 
