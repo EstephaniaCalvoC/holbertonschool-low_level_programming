@@ -4,6 +4,7 @@
 /**
  * prt_error - Print errors and exit of the program.
  * @args: Number of arguments to print error.
+ * @error_num: Number error to exit.
  */
 void prt_error(const int args, ...)
 {
@@ -45,7 +46,7 @@ int main(int argc, char **argv)
 
 	/*Open file_from*/
 	file_from = open(argv[1], O_RDONLY);
-	if (file_from == -1)
+	if (file_from == 1)
 		prt_error(98, argv[1]);
 
 	/*Open file_to*/
