@@ -23,3 +23,4 @@
 - **0x13-more_singly_linked_lists:** More singly linked lists.
 - **0x14-bit_manipulation:** Bit manipulation.
 - **0x15-file_io:** File I/O
+- **0x17-doubly_linked_lists:** Doubly linked lists
