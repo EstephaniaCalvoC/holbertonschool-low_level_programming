@@ -37,11 +37,11 @@ What I learned from this project:
 ### [5. Get node at index](./5-get_dnodeint.c)
 * A function that returns the nth node of a dlistint_t linked list.
 
-<!--
+
 ### [6. Sum list](./6-sum_dlistint.c)
-* Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
+* A function that returns the sum of all the data (n) of a dlistint_t linked list.
 
-
+<!--
 ### [7. Insert at index](./7-insert_dnodeint.c)
 * Write a function that inserts a new node at a given position.
 
