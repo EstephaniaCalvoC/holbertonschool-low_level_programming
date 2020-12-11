@@ -17,11 +17,11 @@ What I learned from this project:
 ### [0. Print list](./ 0-print_dlistint.c)
 * A function that prints all the elements of a dlistint_t list.
 
-<!--
+
 ### [1. List length](./1-dlistint_len.c)
-* Write a function that returns the number of elements in a linked dlistint_t list.
+* A function that returns the number of elements in a linked dlistint_t list.
 
-
+<!--
 ### [2. Add node](./2-add_dnodeint.c)
 * Write a function that adds a new node at the beginning of a dlistint_t list.
 
