@@ -41,11 +41,11 @@ What I learned from this project:
 ### [6. Sum list](./6-sum_dlistint.c)
 * A function that returns the sum of all the data (n) of a dlistint_t linked list.
 
-<!--
+
 ### [7. Insert at index](./7-insert_dnodeint.c)
-* Write a function that inserts a new node at a given position.
+* A function that inserts a new node at a given position.
 
-
+<!--
 ### [8. Delete at index](./8-delete_dnodeint.c)
 * Write a function that deletes the node at index index of a dlistint_t linked list.
 
