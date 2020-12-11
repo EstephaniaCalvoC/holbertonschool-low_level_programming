@@ -33,11 +33,11 @@ What I learned from this project:
 ### [4. Free list](./4-free_dlistint.c)
 * A function that frees a dlistint_t list.
 
-<!--
+
 ### [5. Get node at index](./5-get_dnodeint.c)
-* Write a function that returns the nth node of a dlistint_t linked list.
+* A function that returns the nth node of a dlistint_t linked list.
 
-
+<!--
 ### [6. Sum list](./6-sum_dlistint.c)
 * Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
 
