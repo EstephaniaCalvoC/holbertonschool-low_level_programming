@@ -13,11 +13,11 @@ What I learned from this project:
 * Start to look for the right source of information without too much help
 
 ---
-<!--
+
 ### [0. Print list](./ 0-print_dlistint.c)
-* Write a function that prints all the elements of a dlistint_t list.
+* A function that prints all the elements of a dlistint_t list.
 
-
+<!--
 ### [1. List length](./1-dlistint_len.c)
 * Write a function that returns the number of elements in a linked dlistint_t list.
 
