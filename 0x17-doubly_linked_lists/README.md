@@ -45,11 +45,11 @@ What I learned from this project:
 ### [7. Insert at index](./7-insert_dnodeint.c)
 * A function that inserts a new node at a given position.
 
-<!--
+
 ### [8. Delete at index](./8-delete_dnodeint.c)
-* Write a function that deletes the node at index index of a dlistint_t linked list.
+* A function that deletes the node at index index of a dlistint_t linked list.
 
-
+<!--
 ### [9. Crackme4](./100-password)
 * Find the password for crackme4.
 
