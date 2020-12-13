@@ -17,12 +17,12 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		return (add_dnodeint(h, n));
 
 	/*Find prev position*/
-        for (; idx > 1; idx--)
-        {
+	for (; idx > 1; idx--)
+	{
 		prv_posit = prv_posit->next;
-                if (!prv_posit)
-                        return (NULL);
-        }
+		if (!prv_posit)
+			return (NULL);
+	}
 
 	/*Add in the last position*/
 	if (!(prv_posit->next))
@@ -32,7 +32,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	/*Create new node*/
 	new = malloc(sizeof(dlistint_t));
 	if (!new)
-		return(NULL);
+		return (NULL);
 
 	new->n = n;
 	new->prev = prv_posit;
