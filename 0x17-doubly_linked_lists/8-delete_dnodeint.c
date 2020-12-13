@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * delete_dnodeint_at_index - Deletes the node at index index of a
@@ -24,8 +25,8 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			return (-1);
 	}
 
-	/*If there is only a node*/
-	if (!(delete_node->prev))
+	/*If there is the first node*/
+	if (!index)
 	{
 		/*If there is only a node*/
 		if (!(delete_node->next))
@@ -33,12 +34,16 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		else
 			*head = delete_node->next;
 	}
+	else
+		delete_node = delete_node->next;
 
 	if (delete_node->prev)
 		delete_node->prev->next = delete_node->next;
 
 	if (delete_node->next)
 		delete_node->next->prev = delete_node->prev;
+
 	free(delete_node);
+
 	return (1);
 }
