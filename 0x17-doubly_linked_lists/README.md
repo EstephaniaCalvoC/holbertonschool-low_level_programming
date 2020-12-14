@@ -52,12 +52,12 @@ What I learned from this project:
 <!--
 ### [9. Crackme4](./100-password)
 * Find the password for crackme4.
-
+-->
 
 ### [10. Palindromes](./102-result)
-* A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+* A file with the largest palindrome made from the product of two 3-digit numbers.
 
-
+<!--
 ### [11. crackme5](./103-keygen.c)
 * Write a keygen for crackme5.
 -->
