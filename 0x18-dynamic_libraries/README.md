@@ -25,6 +25,9 @@ What I learned from this project:
 * A script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
 
 
+### [3. Let's call C functions from Python](./100-operations.so)
+*Dynamic library 100-operations.so
+
 ---
 
 ## Author
