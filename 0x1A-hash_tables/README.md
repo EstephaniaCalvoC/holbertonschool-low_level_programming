@@ -22,11 +22,11 @@ What you should learn from this project:
 ### [0. >>> ht = {}](./0-hash_table_create.c)
 * A function that creates a hash table.
 
-<!--
+
 ### [1. djb2](./1-djb2.c)
-* Write a hash function implementing the djb2 algorithm.
+* A hash function implementing the djb2 algorithm.
 
-
+<!--
 ### [2. key -> index](./2-key_index.c)
 * Write a function that gives you the index of a key.
 
