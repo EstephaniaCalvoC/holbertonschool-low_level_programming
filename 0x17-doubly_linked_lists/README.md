@@ -49,10 +49,10 @@ What I learned from this project:
 ### [8. Delete at index](./8-delete_dnodeint.c)
 * A function that deletes the node at index index of a dlistint_t linked list.
 
-<!--
+
 ### [9. Crackme4](./100-password)
-* Find the password for crackme4.
--->
+* File with the password for crackme4.
+
 
 ### [10. Palindromes](./102-result)
 * A file with the largest palindrome made from the product of two 3-digit numbers.
