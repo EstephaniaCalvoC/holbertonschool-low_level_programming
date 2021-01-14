@@ -25,3 +25,4 @@
 - **0x15-file_io:** File I/O
 - **0x17-doubly_linked_lists:** Doubly linked lists
 - **0x18-dynamic_libraries:** Dynamic libraries
+- **0x1A-hash_tables:** Hash tables
