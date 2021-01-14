@@ -18,11 +18,11 @@ What you should learn from this project:
 * What are the most common use cases of hash tables
 
 ---
-<!--
+
 ### [0. >>> ht = {}](./0-hash_table_create.c)
-* Write a function that creates a hash table.
+* A function that creates a hash table.
 
-
+<!--
 ### [1. djb2](./1-djb2.c)
 * Write a hash function implementing the djb2 algorithm.
 
