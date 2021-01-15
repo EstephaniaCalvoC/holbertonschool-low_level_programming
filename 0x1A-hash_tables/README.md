@@ -42,11 +42,11 @@ What you should learn from this project:
 ### [5. >>> print(ht)](./5-hash_table_print.c)
 * A function that prints a hash table.
 
-<!--
+
 ### [6. >>> del ht](./6-hash_table_delete.c)
-* Write a function that deletes a hash table.
+* A function that deletes a hash table.
 
-
+<!--
 ### [7. $ht['Betty'] = 'Holberton'](./100-sorted_hash_table.c)
 * In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
 -->
