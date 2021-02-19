@@ -40,6 +40,9 @@ What I learned from this project:
 ### [5. Island Perimeter](./5-island_perimeter.py)
 * Technical interview preparation: 
 -->
+
+### [6. make -f 100-Makefile](./100-Makefile)
+* Makefile using PHONY CFLAGS and RM
 ---
 
 ## Author
