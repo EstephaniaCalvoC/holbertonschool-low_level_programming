@@ -16,11 +16,11 @@ What I learned from this project:
 * What are variables and how to set and use them
 
 ---
-<!--
+
 ### [0. make -f 0-Makefile](./0-Makefile)
-* Create your first Makefile.
+* My first Makefile.
 
-
+<!--
 ### [1. make -f 1-Makefile](./1-Makefile)
 * Requirements:
 
