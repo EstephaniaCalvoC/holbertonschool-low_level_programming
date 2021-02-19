@@ -21,3 +21,6 @@ _putchar.c
 0x1C-makefiles/*.h
 0x1C-makefiles/*.o
 0x1C-makefiles/holberton
+0x1C-makefiles/*main.py
+0x1C-makefiles/*__pycache__/
+.vscode/

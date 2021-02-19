@@ -36,10 +36,10 @@ What I learned from this project:
 ### [4. A complete Makefile](./4-Makefile)
 * Compile with flags
 
-<!--
+
 ### [5. Island Perimeter](./5-island_perimeter.py)
-* Technical interview preparation: 
--->
+* A function def island_perimeter(grid): that returns the perimeter of the island described in grid.
+
 
 ### [6. make -f 100-Makefile](./100-Makefile)
 * Makefile using PHONY CFLAGS and RM
