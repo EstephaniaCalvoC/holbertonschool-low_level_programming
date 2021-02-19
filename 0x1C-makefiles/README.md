@@ -28,15 +28,15 @@ What I learned from this project:
 ### [2. make -f 2-Makefile](./2-Makefile)
 * My first useful Makefile.
 
-<!--
+
 ### [3. make -f 3-Makefile](./3-Makefile)
-* Requirements:
+* Clean temporal and objects files
 
 
 ### [4. A complete Makefile](./4-Makefile)
-* Requirements:
+* Compile with flags
 
-
+<!--
 ### [5. Island Perimeter](./5-island_perimeter.py)
 * Technical interview preparation: 
 -->
