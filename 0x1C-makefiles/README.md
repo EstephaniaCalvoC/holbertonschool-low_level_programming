@@ -20,11 +20,11 @@ What I learned from this project:
 ### [0. make -f 0-Makefile](./0-Makefile)
 * My first Makefile.
 
-<!--
+
 ### [1. make -f 1-Makefile](./1-Makefile)
-* Requirements:
+* Using variables.
 
-
+<!--
 ### [2. make -f 2-Makefile](./2-Makefile)
 * Create your first useful Makefile.
 
