@@ -17,13 +17,13 @@ What I learned from this project:
 ---
 ## Tasks
 
-<!--
+
 * **0. Linear search**
   * [0-linear.c](./0-linear.c): C function that searches for a value in an array
   of integers using linear search.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the first index where `value` is located.
-
+<!--
 * **1. Binary search**
   * [1-binary.c](./1-binary.c): C function that searches for a value in a sorted
   array of integers using binary search.
