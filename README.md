@@ -27,3 +27,4 @@
 - **0x18-dynamic_libraries:** Dynamic libraries
 - **0x1A-hash_tables:** Hash tables
 - **0x1C-makefiles:** Makefiles
+- **0x1E-search_algorithms:** Search Algorithms
