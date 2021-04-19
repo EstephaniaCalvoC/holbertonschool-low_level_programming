@@ -23,7 +23,7 @@ What I learned from this project:
   of integers using linear search.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the first index where `value` is located.
-<!--
+
 * **1. Binary search**
   * [1-binary.c](./1-binary.c): C function that searches for a value in a sorted
   array of integers using binary search.
@@ -31,7 +31,7 @@ What I learned from this project:
   for is not repeated in the array.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the index where `value` is located.
-
+<!--
 * **2. Big O #0**
   * [2-O](./2-O): Text file containing the worst case time complexity of linear
   search.
