@@ -31,7 +31,7 @@ What I learned from this project:
   for is not repeated in the array.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the index where `value` is located.
-<!--
+
 * **2. Big O #0**
   * [2-O](./2-O): Text file containing the worst case time complexity of linear
   search.
@@ -63,7 +63,7 @@ int **allocate_map(int n, int m)
 		return (map);
 }
 ```
-
+<!--
 * **7. Jump search**
   * [100-jump.c](./100-jump.c): C function that searches for a value in a
   sorted array of integers using jump search.
