@@ -91,14 +91,14 @@ int **allocate_map(int n, int m)
   * Assumes the array is sorted in ascending order.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the first index where `value` is located.
-
+-->
 * **11. Advanced binary search**
   * [104-advanced_binary.c](./104-advanced_binary.c): C function that searches
   for a value in a sorted array of integers using advanced binary search.
   * Assumes the array is sorted in ascending order.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the first index where `value` is located.
-
+<!--
 * **12. Jump search in a singly linked list**
   * [105-jump_list.c](./105-jump_list.c): C function that searches for a value
   in a `listint_t` sorted singly linked list of integers using jump search.
