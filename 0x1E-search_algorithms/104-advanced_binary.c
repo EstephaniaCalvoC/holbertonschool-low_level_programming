@@ -15,25 +15,27 @@ int r_binary_search(int *array, int r, int l, int value)
 	int mid, i;
 	char *sep = "";
 
-	if (r == l)
-		return (-1);
-
 	printf("Searching in array: ");
 	for (i = r; i <= l; i++)
 	{
 		printf("%s%d", sep, array[i]);
 		sep = ", ";
 	}
-        printf("\n");
+	printf("\n");
 
 	mid = ((l - r) / 2) + r;
 	if (value == array[mid] && value != array[mid - 1])
 		return (mid);
 
+	if (r == l)
+		return (-1);
+
 	if (value <= array[mid])
 		return (r_binary_search(array, r, mid, value));
+
 	if (value > array[mid])
 		return (r_binary_search(array, mid + 1, l, value));
+
 	return (-1);
 }
 
@@ -48,7 +50,7 @@ int r_binary_search(int *array, int r, int l, int value)
  */
 int advanced_binary(int *array, size_t size, int value)
 {
-        if (array == NULL)
-                return (-1);
-        return (r_binary_search(array, 0, size - 1, value));
+	if (array == NULL)
+		return (-1);
+	return (r_binary_search(array, 0, size - 1, value));
 }
