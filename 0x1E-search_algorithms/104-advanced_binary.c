@@ -21,8 +21,8 @@ int r_binary_search(int *array, int r, int l, int value)
 	printf("Searching in array: ");
 	for (i = r; i <= l; i++)
 	{
-		printf("%s%d",sep, array[i]);
-		sep = " ,";
+		printf("%s%d", sep, array[i]);
+		sep = ", ";
 	}
         printf("\n");
 
