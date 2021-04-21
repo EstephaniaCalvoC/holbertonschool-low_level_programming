@@ -63,7 +63,7 @@ int **allocate_map(int n, int m)
 		return (map);
 }
 ```
-<!--
+
 * **7. Jump search**
   * [100-jump.c](./100-jump.c): C function that searches for a value in a
   sorted array of integers using jump search.
@@ -83,7 +83,7 @@ int **allocate_map(int n, int m)
   * Assumes the array is sorted in ascending order.
   * If the value is not present or the array is `NULL`, returns `-1`.
 	* Otherwise, returns the first index where `value` is located.
-
+<!--
 * **10. Exponential search**
   * [103-exponential.c](./103-exponential.c): C function that searches for a
   value in a sorted array of integers using exponential search.
@@ -113,7 +113,7 @@ int **allocate_map(int n, int m)
   * Assumes that the singly linked list is sorted in ascending order.
 	* If the value is not present or the head of the list is `NULL`, returns `NULL`.
 	* Otherwise, returns a pointer to the first node where `value` is located.
-
+-->
 * **14. Big O #6**
   * [107-O](./107-O): Text file containing the average time complexity of jump
   search in a singly linked list of size `n`, using `step = sqrt(n)`.
@@ -121,7 +121,7 @@ int **allocate_map(int n, int m)
 * **15. Big O #7**
   * [108-O](./108-O): Text file containing the average time complexity of jump
   search in a sorted skipped linked list of of size `n`, using `step = sqrt(n)`.
--->
+
 ---
 
 ## Author
